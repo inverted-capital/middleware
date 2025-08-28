@@ -105,8 +105,8 @@
     "description": "Web archive going back to 2008. [Cited in thousands of research papers per year](https://commoncrawl.org/research-papers)."
   },
   "ChatGPT Agent": {
-    "operator": "Unclear at this time.",
-    "respect": "Unclear at this time.",
+    "operator": "[OpenAI](https://openai.com)",
+    "respect": "Yes",
     "function": "AI Agents",
     "frequency": "Unclear at this time.",
     "description": "ChatGPT Agent is an AI agent created by OpenAI that can use a web browser. It can intelligently navigate and interact with websites to complete multi-step tasks on behalf of a human user. More info can be found at https://darkvisitors.com/agents/agents/chatgpt-agent"
@@ -279,8 +279,15 @@
     "frequency": "No information.",
     "description": "Used to train Gemini and Vertex AI generative APIs. Does not impact a site's inclusion or ranking in Google Search."
   },
+  "Google-Firebase": {
+    "operator": "Google",
+    "respect": "Unclear at this time.",
+    "function": "Used as part of AI apps developed by users of Google's Firebase AI products.",
+    "frequency": "Unclear at this time.",
+    "description": "Supports Google's Firebase AI products."
+  },
   "GoogleAgent-Mariner": {
-    "operator": "Unclear at this time.",
+    "operator": "Google",
     "respect": "Unclear at this time.",
     "function": "AI Agents",
     "frequency": "Unclear at this time.",
@@ -447,6 +454,13 @@
     "operator": "[Webz.io](https://webz.io/)",
     "respect": "[Yes](https://web.archive.org/web/20170704003301/http://omgili.com/Crawler.html)"
   },
+  "OpenAI": {
+    "operator": "[OpenAI](https://openai.com)",
+    "respect": "Yes",
+    "function": "Unclear at this time.",
+    "frequency": "Unclear at this time.",
+    "description": "The purpose of this bot is unclear at this time but it is a member of OpenAI's suite of crawlers."
+  },
   "Operator": {
     "operator": "Unclear at this time.",
     "respect": "Unclear at this time.",
@@ -558,6 +572,13 @@
     "function": "Checks URLs on your site for SEO Writing Assistant.",
     "frequency": "Roughly once every 10 seconds.",
     "description": "Data collected is used for the SEO Writing Assistant tool to check if URL is accessible."
+  },
+  "ShapBot": {
+    "operator": "[Parallel](https://parallel.ai)",
+    "respect": "[Yes](https://docs.parallel.ai/features/crawler)",
+    "function": "Collects data for Parallel's web APIs.",
+    "frequency": "Unclear at this time.",
+    "description": "ShapBot helps discover and index websites for Parallel's web APIs."
   },
   "Sidetrade indexer bot": {
     "description": "AI product training.",
